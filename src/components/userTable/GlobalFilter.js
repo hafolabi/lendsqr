@@ -28,7 +28,7 @@ export const GlobalFilter = ({ filter, setFilter }) => {
       <div className='InputContainer'>
       <input
         type="text"
-        placeholder="Search..."
+        placeholder="Search Entire Table..."
         autoFocus={true}
         value={value || ""}
         onChange={(e) => {

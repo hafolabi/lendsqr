@@ -46,6 +46,7 @@ export default function Login() {
             <div className="loginForm">
               <span className="loginTitle">Welcome!</span>
               <span className="loginDesc">Enter details to login.</span>
+              <span className="loginDesc2">Kindly login with ANY email and password.</span>
 
               <form onSubmit={handleSubmit} className='loginform2'>
                 <input

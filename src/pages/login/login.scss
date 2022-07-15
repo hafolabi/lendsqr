@@ -143,6 +143,22 @@
             }
           }
 
+          .loginDesc2 {
+            color: #545f7d;
+            font-size: 15px;
+            font-family: "Nunito", sans-serif;
+            @include xs {
+              font-size: 11px;
+            }
+
+            @include sm {
+              font-size: 13px;
+            }
+            @include md {
+              font-size: 14px;
+            }
+          }
+
           .loginform2 {
             margin-top: 40px;
             display: flex;
